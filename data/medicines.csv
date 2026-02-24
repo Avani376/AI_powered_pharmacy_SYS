@@ -1,0 +1,11 @@
+Name,Stock,Unit,Prescription Required
+Paracetamol,120,tablets,False
+Amoxicillin,50,capsules,True
+Ibuprofen,200,tablets,False
+Metformin,80,tablets,True
+Loratadine,150,tablets,False
+Insulin,30,vials,True
+Omeprazole,90,tablets,False
+Atorvastatin,60,tablets,True
+Salbutamol,40,inhalers,True
+Cetirizine,180,tablets,False

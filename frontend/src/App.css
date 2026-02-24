@@ -1,0 +1,35 @@
+:root{
+  --bg:#f7f8fb;
+  --card:#fff;
+  --muted:#6b7280;
+  --accent:#2563eb;
+}
+body{font-family:Inter,system-ui,Arial,Helvetica,sans-serif;background:var(--bg);margin:0}
+.app{max-width:1000px;margin:28px auto;padding:18px}
+.header h1{margin:0 0 18px;font-size:20px}
+.dashboard{display:grid;grid-template-columns:1fr 360px;gap:18px}
+.content h2,.sidebar h2{margin:0 0 12px;font-size:16px}
+.card{background:var(--card);padding:12px;border-radius:8px;box-shadow:0 1px 2px rgba(0,0,0,0.04)}
+.status{padding:12px;color:var(--muted)}
+.status.error{color:#b91c1c}
+.inventory-table{width:100%;border-collapse:collapse}
+.inventory-table th{text-align:left;padding:10px;border-bottom:1px solid #e6e9ef;color:var(--muted)}
+.inventory-table td{padding:10px;border-bottom:1px solid #f1f3f7}
+
+/* Chat styles */
+.chat-container{display:flex;flex-direction:column;height:420px}
+.chat-list{flex:1;overflow:auto;padding:8px}
+.chat-message{margin:8px 0;display:flex}
+.chat-message.user{justify-content:flex-end}
+.chat-message.assistant{justify-content:flex-start}
+.chat-message.system{justify-content:center}
+.chat-text{max-width:80%;padding:8px 10px;border-radius:8px;background:#f3f4f6;color:#111}
+.chat-message.user .chat-text{background:var(--accent);color:#fff}
+.chat-form{display:flex;gap:8px;padding-top:8px}
+.chat-form input{flex:1;padding:8px;border-radius:6px;border:1px solid #e6e9ef}
+.chat-form button{padding:8px 12px;border-radius:6px;border:none;background:var(--accent);color:#fff}
+
+/* Alerts */
+.alerts{padding:8px;border-radius:6px;background:#fff;margin-bottom:12px;border:1px solid #eef2ff}
+.alerts ul{margin:8px 0 0;padding-left:18px}
+.alerts li{margin:4px 0;color:var(--muted)}
